@@ -402,7 +402,7 @@ h1, h2, h3, .logo {
 /* Coluna 1: CEO (25%) */
 .col-ceo {
     width: 25%;
-    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.6) 100%), url('Screenshot 2026-07-27 201428.png');
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.6) 100%), url('/ceo.png');
     background-size: cover;
     background-position: center;
     justify-content: flex-end; /* Text at bottom */
