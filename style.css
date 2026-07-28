@@ -14,12 +14,17 @@
     box-sizing: border-box;
 }
 
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+}
+
 body {
     background-color: var(--color-bg);
     color: var(--color-text);
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
-    overflow-x: hidden;
 }
 
 /* Typography */
@@ -171,8 +176,10 @@ h1, h2, h3, .logo {
 }
 
 .headline {
-    font-size: clamp(4rem, 8vw, 10rem);
+    font-size: clamp(2.5rem, 10vw, 10rem);
     line-height: 0.9;
+    word-break: keep-all;
+    overflow-wrap: break-word;
 }
 
 .headline-outline {
@@ -612,7 +619,7 @@ h1, h2, h3, .logo {
 
 @media (max-width: 768px) {
     .header { padding: 1.5rem; }
-    .hero { padding: 0 1.5rem; }
+    .hero { padding: 8rem 1.5rem; }
     .about-editorial { padding: 6rem 1.5rem; }
     .discipline-block { padding: 6rem 0; min-height: auto; }
     .discipline-content { padding: 0 1.5rem; }
