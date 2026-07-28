@@ -348,9 +348,11 @@ h1, h2, h3, .logo {
 }
 
 .gallery-headline {
-    font-size: clamp(3rem, 5vw, 6rem);
-    margin-bottom: 6rem;
+    font-size: clamp(2rem, 8vw, 6rem);
+    margin-bottom: 4rem;
     text-align: center;
+    word-break: keep-all;
+    overflow-wrap: break-word;
 }
 
 .masonry-grid {
